@@ -1,0 +1,9 @@
+/* // CLASE 30
+
+h2 + p {
+    color: red;
+} */
+
+H2 ~ p {
+    color: red;
+}
