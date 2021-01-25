@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+.c-grande{
+    background-color: powderblue;
+    border-radius: 22px;
+    width: 200px;
+    height: 400px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 22px;
+    padding: 22px;
+    box-shadow: 0px 0px 10px 3px;
+    text-align: center;
+}
+
+.c-chico{
+    color: white;
+    text-align: center;
+    padding: 3px;
+    background-color: blue;
+    border-radius: 8px;
+    height: 50px;
+    margin: 0 auto;
+    width: 155px;
+    position: relative;
+    bottom: 400px;
+    box-shadow: 0px 0px 10px 3px black;
+    
+}
+img{
+    width: 300px;
+}

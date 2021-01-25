@@ -1,9 +1,17 @@
-/* // CLASE 30
+/* 
+// CLASE 30
 
 h2 + p {
     color: red;
 } */
 
+
+/* // CLASE 31
 H2 ~ p {
     color: red;
+} */
+
+div p {
+    color: red;
 }
+
