@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+}
+.lista{
+    display: inline-block;
+    padding: 10px;
+    background-color: green;
+    margin: 3px;
+    border-radius: 5px;
+}
+.aside{
+    background-color: hotpink;
+    padding: 2px;
+    display: inline-block;
+    width: 35%;
+    height: 600px;
+    border: 20px;
+}
+.section{
+    background-color: gray;
+    padding: 2px;
+    display: block;
+    width: 63%;
+    height: 600px;
+    border-radius: 10px;
+}
+.caja{    
+    height: 80px;
+    padding: 33px;
+    background-color: indigo;
+    width: 85%;
+    border-radius: 10px;
+    margin: 20px;
+    color: lightcyan;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin: 20px;
+}
