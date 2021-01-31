@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+#caja {
+    position:relative;
+    background:rgb(255, 176, 176);
+    width:200px;
+    height:150px;
+    margin: 10px;
+}
+#caja div{
+    width:50px;
+    position:absolute;
+}
+#caja #div1 {
+    background:green;
+    top:0px; /* posicion vertical */
+    left:0px; /* centrado horizontal */
+    width: 200px;
+    height: 100px;
+}
+#caja #div2 {
+    background:yellow;
+    top:0px; /* posicion vertical */
+    right: 0px; /* centrado horizontal */
+    margin-left: 0px;
+}
+#caja #div3 {
+    background:rgb(30, 49, 221);
+    bottom:0px; /* posicion vertical */
+    left: 0px; /* centrado horizontal */
+    margin-left: 0px;
+    height: 50px;
+}
+#caja #div4 {
+    background:rgb(53, 53, 53);
+    bottom:0px; /* posicion vertical */
+    right: 0px; /* centrado horizontal */
+    margin-left: 0px;
+}
+#caja #div5 {
+    background:rgb(255, 63, 63);
+    bottom:20px; /* posicion vertical */
+    right: 0px; /* centrado horizontal */
+    margin-left: 0px;
+}
+#caja #div6 {
+    background:rgb(27, 183, 255);
+    bottom:0px; /* posicion vertical */
+    left: 55px; /* centrado horizontal */
+    margin-left: 0px;
+    width: 90px;
+}
+
+
